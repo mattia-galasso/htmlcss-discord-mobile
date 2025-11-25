@@ -1,0 +1,74 @@
+/* CSS Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* IMG Reset */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* General Rules */
+
+body {
+    background-color: #181c7a;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.sigmar {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+/* PAGE CONTENT */
+.page-cards {
+    padding: 0 20px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.jumbo-card {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.buttons {
+    text-decoration: none;
+    width: 345px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.download-button {
+    margin: 10px auto;
+    display: block;
+    background-color: white;
+    border: none;
+}
+
+.button-browser {
+    display: inline-block;
+    color: white;
+    background-color: #5865f2;
+    line-height: 3rem;
+}
+
+.cards {
+    padding: 20px;
+    background-color: #5d64d1;
+}
