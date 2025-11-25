@@ -55,7 +55,7 @@ section {
 }
 
 .download-button {
-    margin: 10px auto;
+    margin: 15px auto;
     display: block;
     background-color: white;
     border: none;
@@ -69,6 +69,24 @@ section {
 }
 
 .cards {
-    padding: 20px;
+    text-align: left;
+    padding: 60px 30px;
     background-color: #5d64d1;
+    min-height: 600px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.cards-img {
+    margin-top: 20px;
+    border-radius: 35px;
+}
+
+.card-logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
