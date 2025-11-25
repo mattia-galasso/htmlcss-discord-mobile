@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-/* IMG Reset */
-img {
-    max-width: 100%;
-    display: block;
-}
-
 /* General Rules */
 
 body {
@@ -30,8 +24,15 @@ body {
     padding-bottom: 15px;
 }
 
+/* HEADER */
+
+.header-img {
+    width: 100%;
+}
+
 /* PAGE CONTENT */
 .page-cards {
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -39,6 +40,7 @@ section {
     margin: 50px 0;
 }
 
+/* JUMBO CARD */
 .jumbo-card {
     padding: 20px;
     text-align: center;
@@ -68,19 +70,24 @@ section {
     line-height: 3rem;
 }
 
+/* EMOJI AND CALL CARDS */
 .cards {
     text-align: left;
     padding: 60px 30px;
     min-height: 600px;
     border-radius: 30px;
     position: relative;
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
+    background: #333690;
+    background: linear-gradient(180deg, rgba(51, 54, 144, 1) 30%, rgba(84, 96, 231, 1) 100%);
 }
 
-.cards-img {
+/* .cards-img {
+    margin-top: 20px;
+    border-radius: 35px;
+} */
+
+.cards-video {
+    max-width: 100%;
     margin-top: 20px;
     border-radius: 35px;
 }
