@@ -71,10 +71,13 @@ section {
 .cards {
     text-align: left;
     padding: 60px 30px;
-    background-color: #5d64d1;
     min-height: 600px;
     border-radius: 30px;
     position: relative;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .cards-img {
