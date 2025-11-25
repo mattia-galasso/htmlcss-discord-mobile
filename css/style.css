@@ -32,7 +32,6 @@ body {
 
 /* PAGE CONTENT */
 .page-cards {
-    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -42,9 +41,12 @@ section {
 
 /* JUMBO CARD */
 .jumbo-card {
-    padding: 20px;
+    padding: 20px 50px;
     text-align: center;
+}
 
+.jumbo-title {
+    padding: 15px 30px;
 }
 
 .buttons {
@@ -73,7 +75,7 @@ section {
 /* EMOJI AND CALL CARDS */
 .cards {
     text-align: left;
-    padding: 60px 30px;
+    padding: 60px 40px;
     min-height: 600px;
     border-radius: 30px;
     position: relative;
